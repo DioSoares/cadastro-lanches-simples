@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Cadastro de Lanchonete</h1>
+    <form action="">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" required>
+
+      <label for="endereco">Endereço:</label>
+      <input type="text" id="endereco" name="endereco" required>
+
+      <label for="alimentos">Alimentos:</label>
+      <select id="alimentos" name="alimentos" required>
+        <option value="">Selecione um alimento</option>
+        <option value="hamburguer">Hambúrguer</option>
+        <option value="pizza">Pizza</option>
+        <option value="sanduiche">Sanduíche</option>
+      </select>
+
+      <label for="bebidas">Bebidas:</label>
+      <select id="bebidas" name="bebidas" required>
+        <option value="">Selecione uma bebida</option>
+        <option value="refrigerante">Refrigerante</option>
+        <option value="suco">Suco</option>
+        <option value="cafe">Café</option>
+      </select>
+
+      <button type="submit">Enviar</button>
+    </form>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
