@@ -1,47 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  .container {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  form {
-    display: grid;
-    grid-gap: 10px;
-  }
-  
-  label {
-    font-weight: bold;
-  }
-  
-  input,
-  select {
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  button[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #3e8e41;
-  }
+  font-family: Arial, sans-serif;
+  background-image: url('../cadastro-lanches-simples/alimento-lanche-fundo-400-59678502.jpg');
+}
+
+.container {
+  max-width: 500px;
+  min-height: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btnEnviar {
+  background-color: #4CAF50;
+}
+
+.btnEnviar:hover {
+  background-color: #3e8e41;
+}
+
+.btnConsultar {
+  background-color: #a9a3fc;
+}
+
+.btnConsultar:hover {
+  background-color: #7e76ec
+}
+
+.btnVoltar {
+  margin-top: 0.9em;
+  background-color: #df0b0b8f;
+}
+
+.btnVoltar:hover {
+  background-color: #7c0808;
+}
+
+.gradecadastro {
+  border: 1px solid red;
+  width: 100%;
+
+}
+
+.gradecadastro td, th {
+  border: 1px solid red;
+}
+
+.gradecadastro th {
+  background-color: #a9a3fc;
+}
